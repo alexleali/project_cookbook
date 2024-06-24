@@ -2,15 +2,16 @@
     "manifest_version": 2,
     "name": "project cookbook",
     "version":  "0.1",
-    "description": "a web plugin for saving online recepies"
+    "description": "a web plugin for saving online recepies",
 
     "icons": {
         "48": "icons/pcb-48.png"
     },
     "content_scripts": [
         {
-            "matches": [""],
-            "js": "main.js"
+            "matches": ["<all_urls>"],
+            "js": ["main.js"]
         }
     ]
+
 }
