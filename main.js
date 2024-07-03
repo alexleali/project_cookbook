@@ -25,6 +25,15 @@ function domLoaded(){
 
 }
 
+/*
+ * function saveToCookbook(recipie){
+ *  load user's cookbook
+ *  append saved recipe to the cookbook
+ *  close user's cook book
+ *  send message that the recipe was saved successfully
+ * }
+ */
+
 //debug function
 function createElem(){
     var newElem = document.createElement("p");
