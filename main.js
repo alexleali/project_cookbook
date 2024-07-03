@@ -19,6 +19,10 @@ function domLoaded(){
     //let recipeDiv = $("#recipe")
     let recipeDiv = document.getElementsByTagName('div');
     recipeDiv.innerHTML = "This is the recipie div";
+    //highlight recipe with css formationg
+    //add sidebar asking user if they want to add recipe to their cookbook
+    //if user says yes { save to cook book }
+
 }
 
 //debug function
