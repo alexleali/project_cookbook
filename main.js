@@ -1,3 +1,5 @@
+import {jquery} from "./lib/jquery-3.7.1.min.js"
+
 //Check to see if the script in running
 console.log("normal log: Script is running");
 
